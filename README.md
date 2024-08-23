@@ -12,3 +12,4 @@ SQL practice:-
 6 primary key and unique key
 7 foreign key
 8 check constraint
+9 Distinct order by limit
