@@ -35,4 +35,6 @@ select * from orderby;
 select * from orderby order by fname;
 select * from orderby order by fname desc;
 
-select * from orderby limit 5;
+select * from orderby limit 5; 
+
+select * from orderby limit 8;
