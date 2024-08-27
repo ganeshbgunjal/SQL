@@ -10,3 +10,9 @@ select * from table_name where fname like 'x%';    -- random code..
 -- O - order by
 -- L - limit
 
+
+select col1, col2 from tablename order by col1;    -- random example
+-- order of execution is 
+-- 1 FROM (loading the table) ---- from will be executed first in the query
+-- 2 SELECT (direction, which columns to show) ---- then select will execute
+-- 3 order by
