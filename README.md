@@ -13,3 +13,4 @@ SQL practice:-
 7 foreign key
 8 check constraint
 9 Distinct order by limit
+10 order of execution in sql statements
