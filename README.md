@@ -16,3 +16,5 @@ SQL practice:-     <br>
 8 check constraint                  <br>
 9 Distinct order by limit                     <br>
 10 order of execution in sql statements 
+11 aggregate function like Min(),Max(),count(),sum(), avg()   <br>
+12 Group by statements
