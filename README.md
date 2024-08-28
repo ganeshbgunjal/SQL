@@ -15,6 +15,6 @@ SQL practice:-     <br>
 7 foreign key                         <br>
 8 check constraint                  <br>
 9 Distinct order by limit                     <br>
-10 order of execution in sql statements 
+10 order of execution in sql statements    <br>
 11 aggregate function like Min(),Max(),count(),sum(), avg()   <br>
-12 Group by statements
+12 Group by statements    <br>
