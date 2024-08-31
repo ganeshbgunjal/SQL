@@ -19,3 +19,4 @@ SQL practice:-     <br>
 11 aggregate function like Min(),Max(),count(),sum(), avg()   <br>
 12 Group by statements    <br>
 13 some other data types like timestamp and decimal     <br>
+14 logical operators        <br>
