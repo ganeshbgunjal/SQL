@@ -54,7 +54,46 @@ select * from stud;
  select * from courses;
  
  
- select course_name,course_duration_months,fname
+ -- INNER join:-- used to retrieve records that have matching values in both tables.
+ select course_name,course_duration_months,fname,lname
  from courses
  join stud
  on courses.course_id = stud.selected_course;
+ 
+ 
+ -- RIGHT join:-- it returns all records from right table and only matching records from left table. 
+ select course_name,course_duration_months,fname,lname
+ from courses
+ right join stud
+ on courses.course_id = stud.selected_course;
+ 
+ -- LEFT table:--- it returns all records from left table and only matching records from right table. if there is match then it gives null
+ select course_name,course_duration_months,fname,lname
+ from courses
+ left join stud
+ on courses.course_id = stud.selected_course;
+ 
+ 
+ -- FULL join:-- in my sql there is no full join. there is UNIION of right and left table.
+ -- UNIION ALL:--  gives duplicated also
+ -- UNION:--  it removes duplicated
+ -- this is diff between union and union all..
+ 
+ 
+  select course_name,course_duration_months,fname,lname
+ from courses
+ right join stud
+ on courses.course_id = stud.selected_course 
+union all
+ select course_name,course_duration_months,fname,lname
+ from courses
+ left join stud
+ on courses.course_id = stud.selected_course;
+ 
+ 
+  -- CROSS join:-- its cartesion product of tables. suppose table 1 has 4 records and table 2 has 8 records. then cartesion praduct
+ -- of this 2 tables will give 32 records.. 
+ 
+ select * from courses
+ cross join stud;
+ 
