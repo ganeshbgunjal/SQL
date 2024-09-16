@@ -1,30 +1,32 @@
 SQL practice:-     <br>
-1 create database   <br>
-2 show database    <br>
-3 select statements   <br>
+1 Create database   <br>
+2 Show database    <br>
+3 Select statements   <br>
 4 CRUD operations:-     <br>
 
->   1 create table    <br>
->   2 select/read data from table.    <br>
->   3 update the record/s         <br>
->   4 delete any record from the table.    <br>
->   5 null, not null, auto_increment, default constraint    <br>
+>   1 Create table    <br>
+>   2 Select/read data from table.    <br>
+>   3 Update the record/s         <br>
+>   4 Delete any record from the table.    <br>
+>   5 Null, not null, auto_increment, default constraint    <br>
 
 5 DDL and DML      <br>
-6 primary key and unique key    <br>
-7 foreign key                         <br>
-8 check constraint                  <br>
+6 Primary key and unique key    <br>
+7 Foreign key                         <br>
+8 Check constraint                  <br>
 9 Distinct order by limit                     <br>
-10 order of execution in sql statements    <br>
-11 aggregate function like Min(),Max(),count(),sum(), avg()   <br>
+10 Order of execution in sql statements    <br>
+11 Aggregate function like Min(),Max(),count(),sum(), avg()   <br>
 12 Group by statements    <br>
-13 some other data types like timestamp and decimal     <br>
-14 logical operators        <br>
+13 Some other data types like timestamp and decimal     <br>
+14 Logical operators        <br>
 > =, !=, <, >,    <br>
 > in, <br>
 > between  <br>
 > case statement        <br>
-15 joins      <br>
-16 where and groupby   <br>
-17 over and partition by    <br>
-18 row number       <br>
+15 Joins      <br>
+16 Where and groupby   <br>
+17 Over and partition by    <br>
+18 Row number       <br>
+19 Rank         <br>
+20 Dense Rank
