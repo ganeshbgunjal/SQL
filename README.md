@@ -27,3 +27,4 @@ SQL practice:-     <br>
 15 joins      <br>
 16 where and groupby   <br>
 17 over and partition by    <br>
+18 row number       <br>
